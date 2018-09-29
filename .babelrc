@@ -1,0 +1,9 @@
+{
+    "presets": ["es2015", "stage-0", "react"],
+    "plugins": ["inline-react-svg", "add-module-exports"],
+    "env": {
+      "production": {
+        "presets": ["babili"]
+      }
+    }
+}

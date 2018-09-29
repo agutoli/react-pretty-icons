@@ -1,0 +1,1 @@
+babel --presets=babili --plugins transform-es2015-modules-umd --plugins add-module-exports src --ignore *.storybook.js --out-dir ./dist

@@ -1,0 +1,112 @@
+
+  import React from 'react'
+  import { storiesOf } from '@storybook/react'
+
+  import Icon from './Icon';
+
+  storiesOf('Icon')
+    .add('default', () => (
+      <div>
+        <style dangerouslySetInnerHTML={{__html: "svg { height: 32px; margin: 10px; }"}} />
+            <Icon name="add" />
+    <Icon name="bag" />
+    <Icon name="battery" />
+    <Icon name="bell" />
+    <Icon name="bluetooth" />
+    <Icon name="bookmark" />
+    <Icon name="briefcase" />
+    <Icon name="calendar" />
+    <Icon name="cancel-1" />
+    <Icon name="cancel" />
+    <Icon name="clip" />
+    <Icon name="clock-1" />
+    <Icon name="clock" />
+    <Icon name="cloud" />
+    <Icon name="correct" />
+    <Icon name="credit-card" />
+    <Icon name="cursor-1" />
+    <Icon name="cursor" />
+    <Icon name="cut" />
+    <Icon name="cutlery" />
+    <Icon name="down-arrow" />
+    <Icon name="download" />
+    <Icon name="edit" />
+    <Icon name="envelope" />
+    <Icon name="export" />
+    <Icon name="favorite" />
+    <Icon name="file" />
+    <Icon name="folder" />
+    <Icon name="forward" />
+    <Icon name="gallery" />
+    <Icon name="gamepad" />
+    <Icon name="garbage" />
+    <Icon name="headphones" />
+    <Icon name="heart" />
+    <Icon name="help" />
+    <Icon name="home" />
+    <Icon name="hourglass" />
+    <Icon name="info" />
+    <Icon name="layer" />
+    <Icon name="layout" />
+    <Icon name="left-arrow-1" />
+    <Icon name="left-arrow" />
+    <Icon name="lightning" />
+    <Icon name="link" />
+    <Icon name="logout" />
+    <Icon name="magnet" />
+    <Icon name="map" />
+    <Icon name="menu" />
+    <Icon name="monitor" />
+    <Icon name="moon" />
+    <Icon name="padnote" />
+    <Icon name="paint" />
+    <Icon name="pause" />
+    <Icon name="photo-camera" />
+    <Icon name="placeholder" />
+    <Icon name="play-button" />
+    <Icon name="power" />
+    <Icon name="presentation" />
+    <Icon name="printer" />
+    <Icon name="profile" />
+    <Icon name="prohibition" />
+    <Icon name="push-pin" />
+    <Icon name="puzzle" />
+    <Icon name="refresh" />
+    <Icon name="remove" />
+    <Icon name="rewind" />
+    <Icon name="right-arrow-1" />
+    <Icon name="right-arrow" />
+    <Icon name="rocket-launch" />
+    <Icon name="screen" />
+    <Icon name="search" />
+    <Icon name="settings-1" />
+    <Icon name="settings-2" />
+    <Icon name="settings" />
+    <Icon name="share" />
+    <Icon name="shield" />
+    <Icon name="shopping-cart" />
+    <Icon name="shutter" />
+    <Icon name="smartphone" />
+    <Icon name="speech-bubble" />
+    <Icon name="speedometer" />
+    <Icon name="stats" />
+    <Icon name="store" />
+    <Icon name="sun" />
+    <Icon name="switch" />
+    <Icon name="tag" />
+    <Icon name="target" />
+    <Icon name="timer" />
+    <Icon name="unlock" />
+    <Icon name="up-arrow" />
+    <Icon name="upload" />
+    <Icon name="video-camera" />
+    <Icon name="video" />
+    <Icon name="visible" />
+    <Icon name="voice-recorder" />
+    <Icon name="volume" />
+    <Icon name="waiting" />
+    <Icon name="wifi" />
+    <Icon name="zoom-out" />
+    <Icon name="zoom" />
+      </div>
+    ));

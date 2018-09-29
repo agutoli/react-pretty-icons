@@ -1,0 +1,18 @@
+#!/bin/bash
+
+ICON_HEIGHT=32
+
+if [ ! -f ./src/new_icons/*.svg ]; then
+    echo "No new svg found on ./src/new_icons/"
+    exit 0
+fi
+
+for filename in ./src/new_icons/*.svg; do
+  name=$(basename $filename)
+  ./node_modules/svgo/bin/svgo --enable=removeDimensions ./src/new_icons/$name ./src/icons/normalized/$name
+done
+
+mv ./src/new_icons/*.svg ./src/icons/original/
+
+# # update icons
+./tools/rebuild-svg-importers.js

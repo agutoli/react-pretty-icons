@@ -1,0 +1,6 @@
+rm -rf dist/
+
+./tools/normalize-icons
+./tools/build-js
+./tools/rebuild-svg-importers.js
+./tools/update-readme.js

@@ -1,0 +1,9 @@
+#!/bin/bash
+
+for file in ./src/icons/normalized/*
+do
+    if [[ -f $file ]]; then
+        filename=$(basename $file)
+        ./node_modules/svgexport/bin/index.js $file ./example/__react-pretty-icons__/$filename.png --size 32:32
+    fi
+done

@@ -42,6 +42,10 @@ const updateReadme = (files) => {
     }
   })
 
+  for (let i=0; i< (8 - count); i++) {
+    source += '| - |'
+  }
+
   source += sourceNames
 
   const readmeDir = `${__dirname}/../`;

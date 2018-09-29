@@ -24,7 +24,7 @@ const updateReadme = (files) => {
     var iconName = iconsNames[index].replace('.svg', '')
     if (count == 0) {
       source += `| ${line} | ${icon} | `;
-      sourceNames += `| - | ${iconName} | `;
+      sourceNames += `| &nbsp; | ${iconName} | `;
       count++;
     } else if (count < 8) {
       source += `${icon} | `;

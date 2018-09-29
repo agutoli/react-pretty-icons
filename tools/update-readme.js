@@ -47,7 +47,7 @@ const updateReadme = (files) => {
     sourceNames += ' - |'
   }
 
-  source += sourceNames
+  source += "\n " + sourceNames
 
   const readmeDir = `${__dirname}/../`;
   fs.readFile(`${readmeDir}/tools/templates/README.md`, "utf-8", function(err, readme) {

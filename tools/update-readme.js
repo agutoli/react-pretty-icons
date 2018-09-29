@@ -34,9 +34,9 @@ const updateReadme = (files) => {
       source += `${icon} | \n`;
       sourceNames += `${iconName} | \n`;
       count=0;
+      source += sourceNames
       line++;
     }
-    source += sourceNames
   })
 
   const readmeDir = `${__dirname}/../`;

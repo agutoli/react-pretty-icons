@@ -64,9 +64,11 @@ After your commit it will run each step automatecaly
     * Normalize the icons for the same size 32x32 (auto)
     * After commit, the Pipelines will upload theses new icons to amazon `s3`
 
-### Icon Pack
-#### Free Basic UI Elements
 
+### CREDITS
+#### Free Basic UI Elements
 https://www.flaticon.com/authors/lucy-g
 https://bylucyg.com/
 License: CC 3.0 BY
+
+### Icon Pack

@@ -1,6 +1,6 @@
 #!/bin/bash
 
-for file in ./src/icons/normalized/*
+for file in /tmp/react-pretty-icons/normalized/*
 do
     if [[ -f $file ]]; then
         filename=$(basename $file)

@@ -10,7 +10,7 @@
     "prepublish": "chmod +x ./tools/*;./tools/build",
     "build": "./tools/build",
     "test": "NODE_PATH=./src mocha -w test/browser.js src/**/*.spec.js",
-    "update-example": "./tools/svg-to-png; ./tools/deploy-to-s3.js",
+    "update-example": "npm run build && ./tools/svg-to-png; ./tools/deploy-to-s3.js",
     "storybook": "start-storybook -p 6006  --config-dir .storybook",
     "build-storybook": "build-storybook"
   },

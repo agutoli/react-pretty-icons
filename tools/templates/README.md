@@ -69,14 +69,23 @@ After your commit it will run each step automatically
 ### CREDITS
 #### Free Basic UI Elements
 
-* Site: https://www.flaticon.com/authors/lucy-g
-* Author: Lucy G. https://bylucyg.com/
+##### SimpleIcon
+http://www.simpleicon.com
+
+* Link: https://www.flaticon.com/packs/simpleicon-social-media
 * License: CC 3.0 BY
 
+##### Lucy G
+https://bylucyg.com/
+
+* Link: https://www.flaticon.com/authors/lucy-g
+* License: CC 3.0 BY
+
+##### Bogdan Rosu
+http://www.bogdanrosu.com
+
 * Link: https://www.flaticon.com/packs/glypho
-* Site: https://www.flaticon.com/authors/bogdan-rosu
-* Bogdan Rosu http://www.bogdanrosu.com
-* License: CC 3.0 BY 
+* License: CC 3.0 BY
 
 
 ### Icon Pack

@@ -67,8 +67,9 @@ After your commit it will run each step automatecaly
 
 ### CREDITS
 #### Free Basic UI Elements
-https://www.flaticon.com/authors/lucy-g
-https://bylucyg.com/
-License: CC 3.0 BY
+
+* Site: https://www.flaticon.com/authors/lucy-g
+* Author: Lucy G. https://bylucyg.com/
+* License: CC 3.0 BY
 
 ### Icon Pack

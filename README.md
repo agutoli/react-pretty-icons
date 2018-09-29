@@ -73,6 +73,12 @@ After your commit it will run each step automatically
 * Author: Lucy G. https://bylucyg.com/
 * License: CC 3.0 BY
 
+* Link: https://www.flaticon.com/packs/glypho
+* Site: https://www.flaticon.com/authors/bogdan-rosu
+* Bogdan Rosu http://www.bogdanrosu.com
+* License: CC 3.0 BY 
+
+
 ### Icon Pack
 |   -  |   A   |   B   |   C   |   D   |   E   |   F   |   G   |
 | :---:| :---: | :---: | :---: | :---: | :---: | :---: | :---: |

@@ -33,9 +33,12 @@ const updateReadme = (files) => {
     } else if (count === 11) {
       source += `${icon} | \n`;
       sourceNames += `${iconName} | \n`;
-      count=0;
+
       source += sourceNames
       line++;
+
+      count=0;
+      sourceNames = ''
     }
   })
 

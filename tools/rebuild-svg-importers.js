@@ -53,7 +53,7 @@ const updateReadme = (files) => {
   var icons = [];
   (files || []).forEach(file => {
     if (/.js$/.test(file)) return;
-    const filename = `http://s3.amazonaws.com/${process.env.BUCKET}/__react-pretty-icons__/${file}.png`;
+    const filename = `http://s3.amazonaws.com/${process.env.S3_BUCKET}/__react-pretty-icons__/${file}.png`;
     icons.push(`![Alt text](${filename} "${file}")`);
   });
 

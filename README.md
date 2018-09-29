@@ -65,7 +65,11 @@ After your commit it will run each step automatecaly
     * After commit, the Pipelines will upload theses new icons to amazon `s3`
 
 ### Icon Pack
-##### That icons is generated and uploaded automatecaly by `bitbucket pipelines` and amazon `s3`.
+#### Free Basic UI Elements
+
+https://www.flaticon.com/authors/lucy-g
+https://bylucyg.com/
+License: CC 3.0 BY
 |   -  |   A   |   B   |   C   |   D   |   E   |   F   |   G   |   H   |   I   |   J   |   K   |   L   |
 | :---:| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | 
 | 1 | ![Alt text](http://s3.amazonaws.com/react-pretty-icons/__react-pretty-icons__/add.svg.png "add.svg") | ![Alt text](http://s3.amazonaws.com/react-pretty-icons/__react-pretty-icons__/bag.svg.png "bag.svg") | ![Alt text](http://s3.amazonaws.com/react-pretty-icons/__react-pretty-icons__/battery.svg.png "battery.svg") | ![Alt text](http://s3.amazonaws.com/react-pretty-icons/__react-pretty-icons__/bell.svg.png "bell.svg") | ![Alt text](http://s3.amazonaws.com/react-pretty-icons/__react-pretty-icons__/bluetooth.svg.png "bluetooth.svg") | ![Alt text](http://s3.amazonaws.com/react-pretty-icons/__react-pretty-icons__/bookmark.svg.png "bookmark.svg") | ![Alt text](http://s3.amazonaws.com/react-pretty-icons/__react-pretty-icons__/briefcase.svg.png "briefcase.svg") | ![Alt text](http://s3.amazonaws.com/react-pretty-icons/__react-pretty-icons__/calendar.svg.png "calendar.svg") | ![Alt text](http://s3.amazonaws.com/react-pretty-icons/__react-pretty-icons__/cancel-1.svg.png "cancel-1.svg") | ![Alt text](http://s3.amazonaws.com/react-pretty-icons/__react-pretty-icons__/cancel.svg.png "cancel.svg") | ![Alt text](http://s3.amazonaws.com/react-pretty-icons/__react-pretty-icons__/clip.svg.png "clip.svg") | ![Alt text](http://s3.amazonaws.com/react-pretty-icons/__react-pretty-icons__/clock-1.svg.png "clock-1.svg") | 

@@ -42,6 +42,8 @@ const updateReadme = (files) => {
     }
   })
 
+  source += sourceNames
+
   const readmeDir = `${__dirname}/../`;
   fs.readFile(`${readmeDir}/tools/templates/README.md`, "utf-8", function(err, readme) {
     fs.writeFile(`${readmeDir}/README.md`, `${readme}${source}`, (err) => {

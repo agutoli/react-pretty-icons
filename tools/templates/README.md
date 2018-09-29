@@ -1,10 +1,10 @@
 # SVG Icons
 
-You dont need to use any ~~webpack loader~~ (I swear) with this package, is a lightweight library which uses just `javascript`. Is just install and import it.
+You don't need to use any ~~webpack loader~~ (I swear) with this package, is a lightweight library which uses just `javascript`. Is just install and import it.
 
 ### How it works?
 
-We are using `babel-plugin-inline-react-svg` to convert svg to javascript, so we dont need svg loader any more.
+We are using `babel-plugin-inline-react-svg` to convert SVG to javascript, so we don't need SVG loader any more.
 
 ##### But, is not that a bad way to do that?
 No, it's a good way! Because we are including each icon "on demand", ex. When you import a icon, we are loading just this specifically icon.
@@ -58,7 +58,8 @@ No, it's a good way! Because we are including each icon "on demand", ex. When yo
 
 Guy, It's ridiculously simple, just move your icon to `./src/new_icons/your_new_icon.svg` and `git add .` and `git commit -m "you message"`.
 
-After your commit it will run each step automatecaly
+After your commit it will run each step automatically
+
     * Convert svg icon to javascript (auto)
     * Update this README with the new icons (auto)
     * Normalize the icons for the same size 32x32 (auto)

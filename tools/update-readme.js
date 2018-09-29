@@ -12,19 +12,19 @@ const updateReadme = (files) => {
     icons.push(`![Alt text](${filename} "${file}")`);
   });
 
-  var source = `  -  |  A  |  B  |  C  |  D  |  E  |  F  |  G  |  H  |  I  |  J  |  K  |  L \n`;
-    source +=  `:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:\n`;
+  var source = `|   -  |   A   |   B   |   C   |   D   |   E   |   F   |   G   |   H   |   I   |   J   |   K   |   L   |\n`;
+    source +=  `| :---:| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | \n`;
   var count = 0;
   var line = 1
   icons.forEach((icon) => {
       if (count == 0) {
-        source += `${line} | ${icon} | `;
+        source += `| ${line} | ${icon} | `;
         count++;
       } else if (count < 11) {
         source += `${icon} | `;
         count++;
       } else if (count === 11) {
-        source += `${icon} \n`;
+        source += `${icon} | \n`;
         count=0;
         line++;
       }

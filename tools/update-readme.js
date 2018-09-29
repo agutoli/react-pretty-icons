@@ -18,7 +18,7 @@ const updateReadme = (files) => {
     source +=  `| :---:| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | \n`;
   var count = 0;
   var line = 1
-  icons.forEach((icon) => {
+  icons.forEach((icon, index1) => {
       if (count == 0) {
         source += `| ${line} | ${icon} | `;
         count++;
@@ -31,17 +31,19 @@ const updateReadme = (files) => {
         line++;
 
         var count2 = 0;
-        iconsNames.forEach((name) => {
-          var iconName = name.replace('.svg', '')
-          if (count2 == 0) {
-            source += `|  -  | ${iconName} | `;
-            count2++;
-          } else if (count < 11) {
-            source += `${iconName} | `;
-            count2++;
-          } else if (count === 11) {
-            source += `${iconName} | \n`;
-            count2=0;
+        iconsNames.forEach((name, index2) => {
+          if (index2 <= index1) {
+            var iconName = name.replace('.svg', '')
+            if (count2 == 0) {
+              source += `|  -  | ${iconName} | `;
+              count2++;
+            } else if (count < 11) {
+              source += `${iconName} | `;
+              count2++;
+            } else if (count === 11) {
+              source += `${iconName} | \n`;
+              count2=0;
+            }
           }
         })
       }

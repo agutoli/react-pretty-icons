@@ -1,4 +1,6 @@
-examples
+example
+bitbucket-pipelines.yml
+hooks
 test
 src
 .storybook

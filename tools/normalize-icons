@@ -11,7 +11,7 @@ for filename in ./src/new_icons/*.svg; do
   name=$(basename $filename)
   ./node_modules/svgo/bin/svgo --enable=removeDimensions ./src/new_icons/$name ./src/icons/normalized/$name
   mkdir -p /tmp/react-pretty-icons/normalized
-  cp ./src/icons/normalized/$name /tmp/react-pretty-icons/normalized
+  cp ./src/icons/normalized/$name /tmp/react-pretty-icons/normalized/
 done
 
 mv ./src/new_icons/*.svg ./src/icons/original/

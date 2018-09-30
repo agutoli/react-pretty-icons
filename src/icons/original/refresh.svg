@@ -1,6 +1,5 @@
-<?xml version='1.0' encoding='utf-8'?>
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 129 129" xmlns:xlink="http://www.w3.org/1999/xlink" enable-background="new 0 0 129 129">
-  <g>
-    <path d="M118.5,6.5c-2.3,0-4.1,1.8-4.1,4.1v24.3c-10.3-17.3-29-28.4-49.9-28.4c-32,0-58,26-58,58.1s26,58,58,58s58-26,58-58   c0-2.3-1.8-4.1-4.1-4.1s-4.1,1.8-4.1,4.1c0,27.5-22.4,49.9-49.9,49.9S14.6,92,14.6,64.5S37,14.6,64.5,14.6   c19.7,0,37.3,11.5,45.3,29.1H81.1c-2.3,0-4.1,1.8-4.1,4.1s1.8,4.1,4.1,4.1h37.3c2.3,0,4.1-1.8,4.1-4.1V10.5   C122.5,8.3,120.7,6.5,118.5,6.5z"/>
-  </g>
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" baseProfile="full" width="24" height="24" viewBox="0 0 24.00 24.00" enable-background="new 0 0 24.00 24.00" xml:space="preserve">
+	<path fill="#000000" fill-opacity="1" stroke-linejoin="round" d="M 17.65,6.35C 16.2,4.9 14.21,4 12,4C 7.58,4 4.01,7.58 4.01,12C 4.01,16.42 7.58,20 12,20C 15.73,20 18.84,17.45 19.73,14L 17.65,14C 16.83,16.33 14.61,18 12,18C 8.69,18 6,15.31 6,12C 6,8.69 8.69,6 12,6C 13.66,6 15.14,6.69 16.22,7.78L 13,11L 20,11L 20,4L 17.65,6.35 Z "/>
 </svg>

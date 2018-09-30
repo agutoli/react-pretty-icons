@@ -14,8 +14,8 @@ const updateReadme = (files) => {
     iconsNames.push(file)
   });
 
-  var source = `|   -  |   A   |   B   |   C   |   D   |   E   |   F   |   G   |\n`;
-    source +=  `| :---:| :---: | :---: | :---: | :---: | :---: | :---: | :---: |\n`;
+  var source = `|   -  |   A   |   B   |   C   |   D   |   E   |   F   |\n`;
+    source +=  `| :---:| :---: | :---: | :---: | :---: | :---: | :---: |\n`;
 
   var count = 0;
   var line = 1
@@ -26,11 +26,11 @@ const updateReadme = (files) => {
       source += `| ${line} | ${icon} | `;
       sourceNames += `| &nbsp; | ${iconName} | `;
       count++;
-    } else if (count < 8) {
+    } else if (count < 7) {
       source += `${icon} | `;
       sourceNames += `${iconName} | `;
       count++;
-    } else if (count === 8) {
+    } else if (count === 7) {
       source += `${icon} | \n`;
       sourceNames += `${iconName} | \n`;
 
@@ -42,7 +42,7 @@ const updateReadme = (files) => {
     }
   })
 
-  for (let i=0; i <= (8 - count); i++) {
+  for (let i=0; i <= (7 - count); i++) {
     source += ' - |'
     sourceNames += ' - |'
   }

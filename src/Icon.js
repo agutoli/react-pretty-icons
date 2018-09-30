@@ -5,10 +5,11 @@ import classnames from 'classnames'
 class Icon extends React.Component {
   render() {
     const { name, className } = this.props;
+    let iconFile;
     try {
-      const iconFile = require(`./icons/${name}.js`)
+      iconFile = require(`./icons/${name}.js`)
     } catch(e) {
-      const iconFile = 'invalid-icon'
+      iconFile = 'invalid-icon'
       console.warn(`invalid icon name ${name}`)
     }
     return React.createElement(iconFile, {

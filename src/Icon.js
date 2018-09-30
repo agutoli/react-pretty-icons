@@ -5,7 +5,13 @@ import classnames from 'classnames'
 class Icon extends React.Component {
   render() {
     const { name, className } = this.props;
-    return React.createElement(require(`./icons/${name}.js`), {
+    try {
+      const iconFile = require(`./icons/${name}.js`)
+    } catch(e) {
+      const iconFile = 'invalid-icon'
+      console.warn(`invalid icon name ${name}`)
+    }
+    return React.createElement(iconFile, {
       className: classnames('react-pretty-icons', `react-pretty-icons__${name}`, className)
     });
   }

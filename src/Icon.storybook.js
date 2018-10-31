@@ -2545,6 +2545,10 @@
     <Icon name="send-lock" />
     <Icon name="send" />
     <Icon name="sending-from-the-inbox" />
+    <Icon name="sentiment-crossed" />
+    <Icon name="sentiment-negative" />
+    <Icon name="sentiment-neutral" />
+    <Icon name="sentiment-positive" />
     <Icon name="serial-port" />
     <Icon name="server-minus" />
     <Icon name="server-network-off" />

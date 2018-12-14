@@ -5,6 +5,10 @@ var fs = require('fs');
 const normalizedIconDir = `${__dirname}/../src/icons/normalized`;
 
 const updateReadme = (files) => {
+  if (!process.env.S3_BUCKET) {
+    throw new Error('evn S3_BUCKET undefined')
+  }
+
   var icons = [];
   var iconsNames = [];
   (files || []).forEach(file => {

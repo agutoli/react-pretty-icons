@@ -13,8 +13,14 @@ const createJsFile = (file) => {
   source += `import iconSvg from '../icons/normalized/${file}';\n`;
   source += `
 function IconRender() {
+  const paths = /^\\<svg [^>]+\\>(.*)<\\/svg>/ig.exec(iconSvg)[1]
   return (
-    <i className="react-pretty-icons react-pretty-icons__${name}" dangerouslySetInnerHTML={{ __html: iconSvg }} />
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      baseProfile="full"
+      viewBox="0 0 24 24"
+      className="react-pretty-icons react-pretty-icons__${name}"
+      dangerouslySetInnerHTML={{__html: paths}} />
   )
 }
 `;
@@ -39,12 +45,13 @@ const createStorybookFile = (files) => {
   import React from 'react'
   import { storiesOf } from '@storybook/react'
 
-  // import Icon from './Icon';
+  import TwitterIcon from './icon/twitter';
 
   storiesOf('Icon')
     .add('default', () => (
       <div>
         <style dangerouslySetInnerHTML={{__html: "svg { height: 32px; margin: 10px; }"}} />
+        <TwitterIcon />
       </div>
     ));
 `;

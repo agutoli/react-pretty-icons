@@ -1,4 +1,4 @@
-rm -rf dist/
+rm -rf icon/
 
 ./tools/normalize-icons
 ./tools/build-js

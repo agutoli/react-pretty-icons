@@ -1,6 +1,6 @@
 {
   "name": "react-pretty-icons",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "Lightweight pack of svg icons for React projects",
   "main": "dist/index.js",
   "directories": {

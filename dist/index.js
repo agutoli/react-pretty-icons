@@ -1,1 +1,0 @@
-'use strict';Object.defineProperty(exports,'__esModule',{value:!0});var _Icon=require('./Icon'),_Icon2=_interopRequireDefault(_Icon);function _interopRequireDefault(a){return a&&a.__esModule?a:{default:a}}exports.default=_Icon2.default,module.exports=exports['default'];

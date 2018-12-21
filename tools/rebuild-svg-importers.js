@@ -3,14 +3,22 @@
 var fs = require('fs');
 
 const normalizedIconDir = `${__dirname}/../src/icons/normalized`;
-const jsIconDir = `${__dirname}/../src/icons`;
+const jsIconDir = `${__dirname}/../src/icon`;
 
 const createJsFile = (file) => {
   const jsfile = file.replace(/svg$/, 'js');
+  const name = file.replace(/.svg$/, '');
   var source = '';
   source += 'import React from \'react\';\n';
-  source += `import Icon from './normalized/${file}';\n`;
-  source += `export default Icon;`;
+  source += `import iconSvg from '../icons/normalized/${file}';\n`;
+  source += `
+function IconRender() {
+  return (
+    <i className="react-pretty-icons react-pretty-icons__${name}" dangerouslySetInnerHTML={{ __html: iconSvg }} />
+  )
+}
+`;
+  source += `export default IconRender`;
   fs.writeFile(`${jsIconDir}/${jsfile}`, source, (err) => {
     if (err) throw err;
     console.log(`${jsIconDir}/${jsfile} created!`);
@@ -31,13 +39,12 @@ const createStorybookFile = (files) => {
   import React from 'react'
   import { storiesOf } from '@storybook/react'
 
-  import Icon from './Icon';
+  // import Icon from './Icon';
 
   storiesOf('Icon')
     .add('default', () => (
       <div>
         <style dangerouslySetInnerHTML={{__html: "svg { height: 32px; margin: 10px; }"}} />
-        ${icons.join('\n')}
       </div>
     ));
 `;

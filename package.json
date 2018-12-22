@@ -26,7 +26,6 @@
     "babel-loader": "^7.1.5",
     "babel-minify": "^0.3.0",
     "babel-plugin-add-module-exports": "^1.0.0",
-    "babel-plugin-emotion": "^10.0.5",
     "babel-plugin-inline-svg": "^1.0.0",
     "babel-preset-env": "^1.7.0",
     "babel-preset-es2015": "^6.24.1",
@@ -45,17 +44,12 @@
     "svg-resizer": "0.0.1",
     "svgexport": "0.3.2",
     "svgo": "0.7.2",
-    "webpack": "^4.28.1"
+    "webpack": "^4.28.1",
+    "@emotion/core": "^0.13.1",
+    "@emotion/styled": "^10.0.2"
   },
   "peerDependencies": {
-    "react": "~16.7.0 || ^16.7.0",
-    "react-dom": "~16.7.0 || ^16.7.0"
-  },
-  "dependencies": {
-    "@emotion/core": "^0.13.1",
-    "@emotion/styled": "^10.0.2",
-    "babel-runtime": "6.6.1",
-    "classnames": "2.2.5",
-    "prop-types": "15.6.2"
+    "react": "~15.5.1 || ^16.7.0",
+    "react-dom": "~15.5.1 || ^16.7.0"
   }
 }
